@@ -2993,11 +2993,11 @@ type 0309, grid 2.5 mm</description>
 <parts>
 <part name="IC1" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX3232*" device="SE" package3d_urn="urn:adsk.eagle:package:821/2" technology="C"/>
 <part name="J1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="NANO_FOOTPRINT" device="" package3d_urn="urn:adsk.eagle:package:41384949/1"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="0207/10"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="0207/10"/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="0207/10"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="0207/10"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="0207/10"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="0207/10" value="47k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="0207/10" value="22k"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="0207/10" value="47k"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="SW1" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE"/>
 <part name="SW2" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE"/>
 <part name="SW3" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE"/>
@@ -3019,23 +3019,23 @@ type 0309, grid 2.5 mm</description>
 </instance>
 <instance part="R1" gate="G$1" x="5.08" y="48.26" smashed="yes">
 <attribute name="NAME" x="1.27" y="49.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="44.958" size="1.778" layer="96"/>
+<attribute name="VALUE" x="6.35" y="50.038" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="5.08" y="40.64" smashed="yes">
 <attribute name="NAME" x="1.27" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="37.338" size="1.778" layer="96"/>
+<attribute name="VALUE" x="6.35" y="42.418" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="5.08" y="33.02" smashed="yes">
 <attribute name="NAME" x="1.27" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="29.718" size="1.778" layer="96"/>
+<attribute name="VALUE" x="6.35" y="34.798" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="5.08" y="25.4" smashed="yes">
 <attribute name="NAME" x="1.27" y="26.8986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="22.098" size="1.778" layer="96"/>
+<attribute name="VALUE" x="6.35" y="27.178" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="5.08" y="17.78" smashed="yes">
 <attribute name="NAME" x="1.27" y="19.2786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.27" y="14.478" size="1.778" layer="96"/>
+<attribute name="VALUE" x="6.35" y="19.558" size="1.778" layer="96"/>
 </instance>
 <instance part="SW1" gate="G$1" x="20.32" y="48.26" smashed="yes">
 <attribute name="NAME" x="17.78" y="51.816" size="1.27" layer="95"/>
